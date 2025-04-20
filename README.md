@@ -1,69 +1,152 @@
 # The Digital Diner
 
-A full-stack web application for a restaurant's online ordering system.
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=The+Digital+Diner+Logo" alt="The Digital Diner Logo">
+</p>
 
-## Features
-- View categorized menu items (e.g., Appetizers, Main Courses, Desserts, Drinks).
-- Add items to a shopping cart and view the total price.
-- Place orders with basic contact information (Name, Phone Number).
-- View past orders associated with a phone number.
+A full-stack web application for an online restaurant ordering system.
 
 ---
 
-## Technologies
-- **Frontend**: React
-- **Backend**: Node.js, Express
-- **Databases**: MongoDB (menu items), PostgreSQL (orders, users)
+## **Features**
+- Browse categorized menu items (e.g., Appetizers, Main Courses, Desserts, Drinks).
+- Add items to your shopping cart and view the total price.
+- Place orders with basic customer details (Name, Phone Number).
+- Track past orders using your phone number.
 
 ---
 
-## Database Design
+## **Widgets and Figures**
 
-### Why MongoDB for Menu Items?
-- **Flexible Schema**: Menu items may have varying details (e.g., optional image URLs, descriptions).
-- **Scalability**: MongoDB is optimized for handling large collections of documents.
+### **System Overview**
+A high-level architecture of the application:
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=System+Architecture" alt="System Architecture">
+</p>
 
-### Why PostgreSQL for Users and Orders?
-- **Relational Structure**: Users and orders have structured relationships.
-- **Consistency**: PostgreSQL ensures ACID compliance for order data.
+### **Frontend**
+- **Framework**: React.js
+- **Deployment**: Netlify
+- **Environment Variables**: 
+  - `REACT_APP_API_URL`: Backend API Base URL
+
+### **Backend**
+- **Framework**: Node.js with Express
+- **Databases**:
+  - MongoDB: For storing menu items.
+  - PostgreSQL: For managing users and orders.
+- **Deployment**: Render/Heroku
 
 ---
 
-## API Endpoints
+### **Database Design**
+#### **Schema Overview**
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Database+Schema" alt="Database Schema">
+</p>
 
-### Menu Endpoints
+- **MongoDB**: Flexible schema for menu items.
+- **PostgreSQL**: Strong relational consistency for users and orders.
+
+---
+
+## **API Endpoints**
+
+### **Menu Endpoints**
 - `GET /api/menu`: Fetch all menu items.
-- `POST /api/menu`: Add a new menu item (bonus).
+- `POST /api/menu`: Add a new menu item (bonus functionality).
 
-### Order Endpoints
+### **Order Endpoints**
 - `POST /api/orders`: Place an order (requires Name, Phone, and Cart data).
 - `GET /api/orders/:phone`: Fetch orders by phone number.
 
 ---
 
-## Deployment
+## **Deployment Status**
 
-### Frontend
-The frontend application is deployed on **Netlify**.  
-Access it here: [The Digital Diner Frontend](#)
+### Frontend Deployment Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/<your-badge-id>/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
 
-### Backend
-The backend API is deployed on a cloud platform (e.g., Render, Fly.io, or Heroku).  
-Ensure the API URL is correctly set in the frontend `.env` file.
+### Backend Deployment Status
+[![Backend Deployment Status](https://img.shields.io/badge/Backend-Online-brightgreen)](https://your-backend-url)
 
 ---
 
-## Assumptions and Challenges
-
-### Assumptions
-- Users don’t need authentication; orders are tied to phone numbers.
-- The cart is stored temporarily on the frontend until order submission.
-
-### Challenges
-- Integrating two databases (MongoDB and PostgreSQL) required careful design to avoid redundant storage.
-- Ensuring Cross-Origin Resource Sharing (CORS) for communication between Netlify and the backend.
+## **Live Demo**
+Access the application here:
+- **Frontend**: [The Digital Diner Frontend](https://your-netlify-url.netlify.app)
+- **Backend**: [API Documentation](https://your-backend-url/api-docs)
 
 ---
 
-## License
+## **Screenshots**
+### Homepage
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Homepage" alt="Homepage">
+</p>
+
+### Menu Page
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Menu+Page" alt="Menu Page">
+</p>
+
+### Cart Page
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Cart+Page" alt="Cart Page">
+</p>
+
+---
+
+## **Getting Started**
+
+### Prerequisites
+1. **Node.js & npm**: [Install Node.js](https://nodejs.org/en/)
+2. **MongoDB**: [Install MongoDB](https://www.mongodb.com/docs/manual/installation/)
+3. **PostgreSQL**: [Install PostgreSQL](https://www.postgresql.org/download/)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tarunlkr6/yummy-dispatch.git
+   cd yummy-dispatch
+   ```
+
+2. Set up the backend:
+   ```bash
+   cd backend
+   npm install
+   cp .env.example .env
+   # Update .env with your MongoDB & PostgreSQL credentials
+   npm start
+   ```
+
+3. Set up the frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   cp .env.example .env
+   # Update .env with REACT_APP_API_URL pointing to your backend
+   npm start
+   ```
+
+4. Open your browser at `http://localhost:3000`.
+
+---
+
+## **Contributing**
+
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Commit your changes: `git commit -m "Add your message here"`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
+
+---
+
+## **License**
 This project is licensed under the MIT License.
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x100?text=Thank+You+for+Checking+Out+The+Digital+Diner!" alt="Thank You">
+</p>
