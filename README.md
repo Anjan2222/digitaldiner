@@ -109,10 +109,7 @@
    ```
    npm run dev
    ```
-5. Access the application:
-   * Open your browser and navigate to http://localhost:5173
   
-
 ## Project Structure
 ```
 yummy-dispatch/
@@ -163,11 +160,3 @@ yummy-dispatch/
 * **Analytics**: Provide detailed analytics for restaurant owners.
 * **Mobile App**: Develop native apps for Android and iOS platforms.
 
-## People
-
-The author of scan & dine is <a href="https://github.com/Sukh767" target="_blank">Sukhranjan Jana</a>
-  * Backend contributor
-    * <a href="https://github.com/tarunlkr6" target="_blank">Tarun Kumar</a>
-  * Frontend contributor
-    * <a href="https://github.com/Sukh767" target="_blank">Sukhranjan Jana</a>
-    * <a href="https://github.com/SoumyaT007" target="_blank">Soumya Pramanik</a>
