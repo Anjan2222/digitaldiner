@@ -1,10 +1,5 @@
 # The Digital Diner
 
-<p align="center">
-  <img src=https:![Uploading image.png…]()
-
-</p>
-
 A full-stack web application for an online restaurant ordering system.
 
 ---
@@ -17,37 +12,13 @@ A full-stack web application for an online restaurant ordering system.
 
 ---
 
-## **Widgets and Figures**
-
-### **System Overview**
-A high-level architecture of the application:
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=System+Architecture" alt="System Architecture">
-</p>
-
-### **Frontend**
-- **Framework**: React.js
-- **Deployment**: Netlify
-- **Environment Variables**: 
-  - `REACT_APP_API_URL`: Backend API Base URL
-
-### **Backend**
-- **Framework**: Node.js with Express
+## **System Overview**
+The application consists of a full-stack architecture:
+- **Frontend**: Built with React.js for an interactive and user-friendly interface.
+- **Backend**: Powered by Node.js and Express for handling API requests and business logic.
 - **Databases**:
-  - MongoDB: For storing menu items.
-  - PostgreSQL: For managing users and orders.
-- **Deployment**: Render/Heroku
-
----
-
-### **Database Design**
-#### **Schema Overview**
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Database+Schema" alt="Database Schema">
-</p>
-
-- **MongoDB**: Flexible schema for menu items.
-- **PostgreSQL**: Strong relational consistency for users and orders.
+  - **MongoDB**: To store flexible data for menu items.
+  - **PostgreSQL**: For relational data like users and orders.
 
 ---
 
@@ -63,53 +34,25 @@ A high-level architecture of the application:
 
 ---
 
-## **Deployment Status**
-
-### Frontend Deployment Status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/<your-badge-id>/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
-
-### Backend Deployment Status
-[![Backend Deployment Status](https://img.shields.io/badge/Backend-Online-brightgreen)](https://your-backend-url)
-
----
-
 ## **Live Demo**
-Access the application here:
-- **Frontend**: [The Digital Diner Frontend](https://your-netlify-url.netlify.app)
-- **Backend**: [API Documentation](https://your-backend-url/api-docs)
-
----
-
-## **Screenshots**
-### Homepage
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Homepage" alt="Homepage">
-</p>
-
-### Menu Page
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Menu+Page" alt="Menu Page">
-</p>
-
-### Cart Page
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Cart+Page" alt="Cart Page">
-</p>
+Access the live application:
+- **Frontend**: Visit the deployed site to explore the app.
+- **Backend**: Backend APIs are live and connected to the frontend.
 
 ---
 
 ## **Getting Started**
 
 ### Prerequisites
-1. **Node.js & npm**: [Install Node.js](https://nodejs.org/en/)
-2. **MongoDB**: [Install MongoDB](https://www.mongodb.com/docs/manual/installation/)
-3. **PostgreSQL**: [Install PostgreSQL](https://www.postgresql.org/download/)
+1. **Node.js & npm**: Make sure you have Node.js installed.
+2. **MongoDB**: Ensure MongoDB is set up and running.
+3. **PostgreSQL**: Install and configure PostgreSQL.
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository locally:
    ```bash
-   git clone https://github.com/tarunlkr6/yummy-dispatch.git
-   cd yummy-dispatch
+   git clone <repository-link>
+   cd <repository-directory>
    ```
 
 2. Set up the backend:
@@ -147,7 +90,3 @@ We welcome contributions! Please follow these steps:
 
 ## **License**
 This project is licensed under the MIT License.
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x100?text=Thank+You+for+Checking+Out+The+Digital+Diner!" alt="Thank You">
-</p>
