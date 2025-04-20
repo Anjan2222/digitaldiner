@@ -5,9 +5,9 @@ A full-stack web application for an online restaurant ordering system.
 ---
 
 ## **Features**
-- Browse categorized menu items (e.g., Appetizers, Main Courses, Desserts, Drinks).
+- Browse categorized menu items.
 - Add items to your shopping cart and view the total price.
-- Place orders with basic customer details (Name, Phone Number).
+- Place orders with basic customer details.
 - Track past orders using your phone number.
 
 ---
