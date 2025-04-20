@@ -45,7 +45,7 @@ A full-stack web application for a restaurant's online ordering system.
 
 ### Frontend
 The frontend application is deployed on **Netlify**.  
-Access it here: [The Digital Diner Frontend](#)
+Access it here:https://scan-and-dine.onrender.com/
 
 ### Backend
 The backend API is deployed on a cloud platform (e.g., Render, Fly.io, or Heroku).  
