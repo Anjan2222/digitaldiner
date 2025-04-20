@@ -1,0 +1,37 @@
+yummy-dispatch/
+|-- admin/
+|   |-- public/
+|   |-- src/
+|       |-- assets/
+|       |-- components/
+|       |-- pages/
+|       |-- App.jsx
+|       |-- Main.jsx
+|       |-- index.css
+|-- backed/
+|    |-- src/
+|        |-- controllers/
+|        |-- db/
+|        |-- mails/
+|        |-- middlewares/
+|        |-- models/
+|        |-- routes/
+|        |-- utils/
+|        |-- app.js
+|        |-- constants.js
+|        |-- server.js
+|-- frontend/
+|     |-- public/
+|     |-- src/
+|          |-- assets/
+|          |-- components/
+|          |-- configs/
+|          |-- context/
+|          |-- lib/
+|          |-- pages/
+|          |-- slices/
+|          |-- App.jsx
+|          |-- constants.js
+|          |-- store.js
+|-- package.json
+|-- Readme.md
