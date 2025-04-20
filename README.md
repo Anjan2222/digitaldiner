@@ -35,9 +35,8 @@ The application consists of a full-stack architecture:
 ---
 
 ## **Live Demo**
-Access the live application:
-- **Frontend**: Visit the deployed site to explore the app.
-- **Backend**: Backend APIs are live and connected to the frontend.
+Access the live application here:  
+**Frontend**: Visit the deployed site to explore the app.
 
 ---
 
@@ -49,13 +48,7 @@ Access the live application:
 3. **PostgreSQL**: Install and configure PostgreSQL.
 
 ### Installation
-1. Clone the repository locally:
-   ```bash
-   git clone <repository-link>
-   cd <repository-directory>
-   ```
-
-2. Set up the backend:
+1. Set up the backend:
    ```bash
    cd backend
    npm install
@@ -64,7 +57,7 @@ Access the live application:
    npm start
    ```
 
-3. Set up the frontend:
+2. Set up the frontend:
    ```bash
    cd ../frontend
    npm install
@@ -73,7 +66,7 @@ Access the live application:
    npm start
    ```
 
-4. Open your browser at `http://localhost:3000`.
+3. Open your browser at `http://localhost:3000`.
 
 ---
 
