@@ -35,8 +35,8 @@ The application consists of a full-stack architecture:
 ---
 
 ## **Live Demo**
-Access the live application here:  
-**Frontend**: Visit the deployed site to explore the app.
+Access the live application here: https://scan-and-dine.onrender.com/ 
+
 
 ---
 
