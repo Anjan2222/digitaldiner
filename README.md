@@ -1,7 +1,8 @@
 # The Digital Diner
 
 <p align="center">
-  <img src=https:https://www.shutterstock.com/image-vector/restaurant-line-art-logo-minimalist-fork-2510539525 alt="The Digital Diner Logo">
+  <img src=https:![Uploading image.png…]()
+
 </p>
 
 A full-stack web application for an online restaurant ordering system.
